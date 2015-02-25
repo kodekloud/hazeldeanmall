@@ -165,27 +165,12 @@
     /*inside page banners*/
     .page_banner{
         color:black;
-        /* For Safari 5.1 to 6.0 */
-        background: -webkit-linear-gradient(left,#AEACAC,#C8C8C8, #AEACAC);
-        /* For Opera 11.1 to 12.0 */
-        background: -o-linear-gradient(left,#AEACAC,#C8C8C8, #AEACAC);
-        /* For Fx 3.6 to 15 */
-        background: -moz-linear-gradient(left,#AEACAC,#C8C8C8, #AEACAC);
-        /* Standard syntax */
-        background: linear-gradient(to right,#AEACAC,#C8C8C8, #AEACAC); 
-        box-shadow: 0px 0px 30px lightgray inset;
+       background: #C8C8C8;
     }
     
     #description_section{
          /* For Safari 5.1 to 6.0 */
-        background: -webkit-linear-gradient(left,#AEACAC,#C8C8C8, #AEACAC);
-        /* For Opera 11.1 to 12.0 */
-        background: -o-linear-gradient(left,#AEACAC,#C8C8C8, #AEACAC);
-        /* For Fx 3.6 to 15 */
-        background: -moz-linear-gradient(left,#AEACAC,#C8C8C8, #AEACAC);
-        /* Standard syntax */
-        background: linear-gradient(to right,#AEACAC,#C8C8C8, #AEACAC); 
-        box-shadow: 0px 0px 30px lightgray inset;
+        background: #C8C8C8;
         color:black;
     }
     
