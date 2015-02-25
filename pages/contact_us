@@ -12,7 +12,7 @@
     <div class="inside_page_content">
         <div class="left_column">
             <img class="inside_banner_image" alt="banner" src="http://kodekloud.s3.amazonaws.com/sites/54edfd7a6e6f640717000000/346a52de0b9e6d84c82a75ab379b9556/beautyshot_edited.jpg"/>
-            <form name="contact_form" id="contact_form" method="post" action="http://mobilefringe.createsend.com/t/d/s/tkuikd/">
+            <form name="contact_form" id="contact_form" method="post" action="http://mobilefringe.createsend.com/t/d/s/illrki/">
                 <div class="row" style="margin-left:-15px;margin-right:-15px">
                     <div class="col-sm-6 col-md-6">
                         <label for="name">Name</label>
@@ -20,14 +20,14 @@
                     </div>
                     <div class="col-sm-6 col-md-6">
                         <label for="email" >E-mail</label>
-                        <input name="cm-tkuikd-tkuikd" id="email" class="form-control" type="text" value="" required>
+                        <input name="cm-illrki-illrki" id="email" class="form-control" type="text" value="" required>
                     </div>
                 </div>
                 <br>
                 <div class="row" style="margin-left:-15px;margin-right:-15px">
                     <div class="col-sm-12 col-md-12">
                         <label for="subject">Subject</label>
-                        <input name="cm-f-jrhiil" id="subject" class="form-control" type="text" required>
+                        <input name="cm-f-jyiyg" id="subject" class="form-control" type="text" required>
                     </div>
                 </div>
                 <br>
