@@ -182,6 +182,7 @@
         /* Standard syntax */
         background: linear-gradient(to right,#AEACAC,#C8C8C8, #AEACAC); 
         box-shadow: 0px 0px 30px lightgray inset;
+        color:black;
     }
     
     .section_header{}
