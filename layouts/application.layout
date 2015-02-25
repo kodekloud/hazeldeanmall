@@ -157,6 +157,10 @@
         color:white;
         background:black;
     }
+    .map-mouse-over{
+    /*set color of store highlight and hover over for SVG map*/
+    fill: #cccccc !important;
+    }
     
     /*inside page banners*/
     .page_banner{
