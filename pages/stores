@@ -12,7 +12,7 @@
     <div class="inside_page_content">
         <div class="left_column">
             <img class="inside_banner_image" alt="banner" src="http://kodekloud.s3.amazonaws.com/sites/54edfd7a6e6f640717000000/346a52de0b9e6d84c82a75ab379b9556/Banner-Image-006_edited.jpg"/>
-            <a href="/map"><p class="right_column_header" id="mobile_centre_map_link" style="display:none">centre map</p></a><br>
+            <!--<a href="/map"><p class="right_column_header" id="mobile_centre_map_link" style="display:none">centre map</p></a><br>-->
             <div class="mobile_cat_list" style="display:none">
                 <p class="right_column_header">categories</p>
                 <div id="mobile_categories_container">
