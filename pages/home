@@ -96,18 +96,15 @@
                     $.each( val.images , function( key, val ) {
                         val.alt_url = val.photo_url_abs;
                         item_list.push(val);
-                        console.log(val);
                     });
                 }
             });
             $.each( item_list , function( key, val ) {
-               
                 var repo_rendered = Mustache.render(banner_template_html,val);
                 item_rendered.push(repo_rendered);
-            
                
             });
-                console.log(item_rendered)
+            
             $(home_banner).show();
             $(home_banner).html(item_rendered.join(''));
             $('.item').first().addClass('active');
