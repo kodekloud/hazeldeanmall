@@ -23,7 +23,7 @@
     </div>
     <div class="inside_page_content">
         <div class="left_column">
-            <img class="inside_banner_image" alt="banner" src="http://kodekloud.s3.amazonaws.com/sites/54edfd7a6e6f640717000000/346a52de0b9e6d84c82a75ab379b9556/beautyshot_edited.jpg"/>
+            <img class="inside_banner_image" alt="banner" src="http://kodekloud.s3.amazonaws.com/sites/54ecad616e6f643c9b000000/bedbb63d07540a15acced1f280477539/Banner-Image-004_edited.jpg"/>
             <div class="promo_list_div" id="promo_list_container">
                 <script id="promo_list_template" type="x-tmpl-mustache/text">
                     <div class="promo_inside_content">
@@ -36,7 +36,7 @@
                 </script>
             </div>  
             <section class="service_teasers" style="display:none" id="no_event_container">
-                <h2>There are no jobs posted at this time, please check back later.</h2>
+                <h2>There are no careers posted at this time, please check back later.</h2>
             </section>
         </div>
         <div class="right_column">
@@ -60,6 +60,16 @@
             renderPageData('#centre_info_container','#centre_info_template',propertyDetails, 'property_details')
             
             all_jobs = getJobsList();
+            all_jobs = all_jobs.reverse();
+            jobs_array = []
+             $.each( all_jobs , function( key, val ){
+                 today = new Date();
+                 webDate = new Date(val.show_on_web_date);
+                 if (today >= webDate) {
+                     jobs_array.push(val)
+                 } 
+             });
+            all_jobs = jobs_array;
             if (all_jobs.length > 0 ) {
                 renderPageData("#promo_list_container","#promo_list_template", all_jobs, "jobs");    
             } else {
